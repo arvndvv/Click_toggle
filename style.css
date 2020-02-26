@@ -1,0 +1,92 @@
+*,
+html,
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  height: 100vh;
+  width: 100vw;
+}
+h1{
+    text-align:center;
+    cursor:pointer;
+}
+code{
+    display:block;
+    text-align:center;
+    cursor:pointer;
+}
+#container {
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(rgba(13, 142, 255, 0.6), rgba(235, 11, 11, 0.6)),
+    url(https://thumbs.dreamstime.com/b/background-wall-home-paper-inside-residential-buildings-floor-plank-parquetry-style-abstract-concept-design-idea-parquet-119303717.jpg);
+  background-position: center;
+  background-size: cover;
+}
+#img {
+  height: 50%;
+  width: 50%;
+  position: absolute;
+  top: 20%;
+  overflow: hidden;
+  left: 25%;
+  border: 5px solid #ffd382;
+  border-radius: 10px;
+  margin: auto;
+  background: url(https://www.ecopetit.cat/wpic/mpic/6-63845_wallpaper-of-colors-dj-wolf-music-background-hd.jpg);
+  background-size: cover;
+  background-position: center;
+  transition: all 0.6s ease;
+}
+#img:hover {
+  box-shadow: 0px 0px 18px cyan;
+  cursor:pointer;
+}
+.change {
+  background: url(https://cdn.suwalls.com/wallpapers/music/hardwell-feat-jake-reese-run-wild-53327-2560x1600.jpg) !important;
+  background-size: cover !important;
+
+  background-position: center !important;
+}
+#btn {
+  width: 25%;
+  position: absolute;
+  padding: 20px 0 20px 0;
+  background: url(https://static4.depositphotos.com/1018174/428/i/450/depositphotos_4288199-stock-photo-modern-studio-background.jpg);
+  background-size: 60%;
+  color: aquamarine;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 800;
+  top: 60%;
+  left: 50%;
+  cursor: pointer;
+  border-top-left-radius: 50px;
+  transition: all 0.6s ease;
+}
+#btn:hover {
+  background-position: right;
+  width: 30%;
+  left: 45%;
+}
+@media only screen and (max-width: 800px) {
+  #btn {
+    padding: 10px 0 10px 0;
+    font-size: 12px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  #btn {
+    padding: 10px 0 10px 0;
+    font-size: 10px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  #btn {
+    padding: 10px 0 10px 0;
+    font-size: 8px;
+  }
+}
